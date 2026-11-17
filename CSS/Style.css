@@ -1,0 +1,431 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins', sans-serif;
+}
+
+.my-navbar{
+    background-color: rgb(255, 251, 255);
+    height: 40px;
+    padding: 10px;
+   
+}
+
+.my-navbar li, .my-navbar h2, .my-navbar ul, .my-navbar input{
+    display: inline;
+    text-align: justify;
+}
+
+.my-navbar h2{
+    margin-left: 35px;
+    font-weight: 200;
+
+}
+
+.my-navbar span{
+    color: #8c0d4f;
+}
+
+.my-navbar li{
+    padding: 10px;
+    color: black;
+   
+}
+.my-navbar a{
+    color: black;
+     border: none;
+    text-decoration: none;
+}
+
+.my-navbar ul{
+    margin-left: 55%;
+}
+
+.my-navbar ul :hover{
+    color: #8c0d4f;
+}
+
+
+/* --------------------------- */
+.card{
+    margin-left: 8%;
+    padding: 25px;
+    background-color: #fcf8fa;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.product .card{
+    display: inline-block;
+    height: 350px;
+    width: 300px;
+
+}
+
+.product .card img {
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+
+}
+
+.product .card h3{
+
+    font-size: 19px;
+    
+}
+
+/* -------------------- HOME-------------------- */
+
+.home h5{
+    
+    background-color: #e8d3de;
+    color: #8c0d4f;
+    display: inline-block;
+    width: 190px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+.home h1{
+    margin-left: 90px;
+    margin-top:50px;
+    font-size: 50px;
+    font-weight: 550;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.home h1 span{
+    color: #8c0d4f;
+}
+
+.home p{
+    margin-left: 90px;
+    margin-top:30px;
+    color: #686868;
+    line-height: 27px;
+}
+
+.home button{
+    height: 45px;
+    width: 200px;
+    margin-left: 90px;
+    margin-top:30px;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: #8f1a57;
+    color: white;
+    border-radius: 7px;
+}
+
+button :hover{
+    background-color: #450727;
+}
+
+/* ---------------------CARD----------------------- */
+
+
+.productcard img{
+    height: 160px;
+    width: 130px;
+
+}
+
+.productcard{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: block;
+    margin-right: 10%;
+    margin-top: 35px;
+    text-align: center;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+.Productname{
+    text-align: center;
+    font-size: 18px;
+    color: #272727;
+    justify-content: center;
+}
+
+.productprice{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #9f0c5a;
+    justify-content: center;
+}
+
+.onehome{
+    margin-bottom: 25px;
+}
+
+/* <!-- ------------------- FOURCARD--------------------------> */
+
+.titcard{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    background: linear-gradient(100deg, #f9178c, #311424);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.FOURCARD{
+    display: inline;
+    margin-left: 5%;
+    display: block;
+}
+
+.boxone img, .boxtwo img, .boxthree img, .boxfour img{
+    height: 170px;
+    width: 170px;
+}
+
+.boxone{
+    
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 35px;
+    margin-bottom: 45px;
+    padding: 5px;
+    height: 400px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: rgb(255, 247, 235);
+}
+
+.boxtwo{
+
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 35px;
+    margin-bottom: 45px;
+    padding: 5px;
+    height: 400px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: rgb(232, 251, 232);
+}
+
+.boxthree{
+
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 35px;
+    margin-bottom: 45px;
+    padding: 5px;
+    height: 400px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: rgb(237, 237, 237);
+}
+
+.boxfour{
+
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 35px;
+    margin-bottom: 45px;
+    padding: 5px;
+    height: 400px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: rgb(228, 247, 251);
+}
+
+.fpara{
+
+    font-size: 14px;
+    color: #686868;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.spara{
+
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.tpara{
+    
+    font-size: 15px;
+    margin-left: 20px;
+    color: #686868;
+}
+
+.shopnow{
+    color: black;
+    margin-left: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+/* -------------Best Sellers--------------- */
+
+
+.fline{
+    margin-left: 110px;
+}
+
+.Sline{
+
+    margin-top: 35px;
+    margin-left: 110px;
+    margin-bottom: 100px;
+}
+
+.bestseller{
+    margin-left: 10px;
+}
+
+.bestseller h2{
+    text-align: center;
+    margin-top: 60px;
+    padding: 10px;
+    font-weight: 550;
+    color: #8c0d4f;
+}
+
+.bsthdline{
+
+    font-size:20px;
+    padding: 30px;
+    text-align: center;
+    color: #686868;
+
+}
+
+.bestseller img{
+    height: 250px;
+    width: 250px;
+}
+
+.cardone, .cardtwo, .cardthree, .cardfour, .cardfive, .cardsix, .cardsevn, .cardeight{
+
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+     margin: 10px;
+    background-color: rgb(250, 251, 255);
+    display: inline-block;
+    border-radius: 4px;
+
+}
+
+.conesaleh{
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.conesale{
+    color: #FFFFFF;
+    background-color: #9e1e60;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.sub{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.cprice{
+   margin-left: 30px;
+   margin-top: 20px;
+   font-size: larger;
+   color: #9e1e60;
+   font-weight: 600;
+}
+
+.strrtng{
+    color: #ffd207;
+    font-size: 25px;
+    margin-left: 30px; 
+    display: inline-block;
+}
+
+/* <!-- ------------Contact Details------------ --> */
+
+.contdetails{
+    background-color: #f9f2f6;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 60px 8%;
+}
+
+.contone, .contshop, .Support, .ContInfo{
+    display: block;
+    
+}
+
+.headone{
+  font-size: 28px;  
+  font-weight: 550;
+  letter-spacing: 1px;
+  color: #5c0934;
+}
+
+.cnttwo{
+    color: #545454;
+}
+
+.contwus{
+    color: #545454;
+    word-spacing: 2px;
+}
+.cntshp, .suphed, .cihed{
+    color: #9e1e60;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.shpnew:hover, .bstsel:hover, .wonclt:hover, .menclt:hover, .sle:hover, .suphc:hover, .supos:hover, .supspi:hover, .supre:hover, .supcu:hover, .ctad:hover,.ctph:hover, .cteml:hover, .cttmy :hover{
+
+color: #910950;
+
+}
+
+
+/* ----------ABOUT------------ */
+
+
+.ABT{
+    height: 450px;
+}
+.abthed{
+
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px;
+    color: #8c0d4f;
+}
+
+.abpara{
+    font-size: 19px;
+    margin: 50px;
+    word-spacing: 2px;
+    line-height: 30px;
+    color: #555555;
+}
+
+/* =========================================== */
+
